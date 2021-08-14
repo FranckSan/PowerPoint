@@ -1,0 +1,25 @@
+GIT est un outils , logiciel permettant de 
+controler les versions du projet informatique
+
+controle de version
+repository depot
+copier "le lien ssh" pour acceder a l'espace et 
+creer un clone
+** creer un clone sur sa machine
+   _ ouvrir l'invite de commande git bash
+   _ entre git clone "lien ssh" sur la machine
+   _ 
+ajouter son ficher a la liste temporaire versoring
+   _ acceder au repository avec la commande
+     cd "nom_du_repository"
+   _ ajouter son nouveau fichier au versoring avec
+     la commande git add "nom_du_fichier" ou
+     git add * pour ajoure tous les fichiers 
+     du clone local
+   _ generer un nouveau commit enpaqueter le fichier
+     avec la commande git commit
+   _ envoyer le fichier dans le resposity avec la 
+     commande git push et cree une nouvelle version 
+     actualiser du projet
+ 
+	
