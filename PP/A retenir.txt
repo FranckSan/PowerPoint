@@ -1,0 +1,29 @@
+git
+   Git ne repose pas sur un serveur centralisé, 
+   mais il utilise un système de connexion pair à 
+   pair. Le code informatique développé est stocké
+   non seulement sur l’ordinateur de chaque 
+   contributeur du projet, mais il peut également 
+   l'être sur un serveur dédié.
+
+l'objet tree
+   Il est constitué d'une liste d'objets de type 
+   blobs et des informations qui leur sont associées,
+   tel que le nom du fichier et les permissions. 
+   Il peut contenir d'autres trees pour représenter 
+   les sous-répertoires 
+
+l'objet commit 
+   enrichie de métadonnées comme un message de 
+   description, le nom de l'auteur, etc. Il pointe 
+   également vers un ou plusieurs objets commit 
+   parents pour former un graphe d'historiques
+
+l'objet tag
+   Il est en général utilisé pour marquer certains 
+   commits, par exemple par un numéro ou un nom de 
+   version
+
+
+
+
